@@ -1,9 +1,9 @@
 package main
 
 import (
-    "gothamel/layout"
     "os"
-    "gothamel/tag"
+    "github.com/marks12/gothamel/layout"
+    "github.com/marks12/gothamel/tag"
 )
 
 func main() {

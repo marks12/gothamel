@@ -2,8 +2,8 @@ package tag
 
 import (
 	"encoding/xml"
-	"gothamel/constants"
 	"fmt"
+	"github.com/marks12/gothamel/constants"
 )
 
 type P struct {

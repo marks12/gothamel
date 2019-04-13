@@ -1,7 +1,7 @@
 package layout
 
 import (
-	"gothamel/tag"
+	"github.com/marks12/gothamel/tag"
 )
 
 func Doc() tag.Html {
