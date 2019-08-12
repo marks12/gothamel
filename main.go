@@ -12,7 +12,26 @@ func main() {
 
     content := tag.Article{Children: &[]tag.Nodes{
         tag.Div{
-            Text: "Some content",
+            Text: "Some content 1",
+        },
+        tag.Div{
+            Text: "Some content 2",
+        },
+        tag.Div{
+            Text: "Some content 3",
+        },
+        tag.P{
+            Text: "Some content P0 in P",
+        },
+        tag.Div{
+            Children: &[]tag.Nodes{
+                tag.Div{
+                    Text: "Some content 3.1",
+                },
+            },
+        },
+        tag.Div{
+            Text: "Some content 4",
         },
     }}
 

@@ -8,7 +8,7 @@ import (
 
 type P struct {
 	XMLName   	xml.Name    `xml:"P"`
-	Children	*[]Nodes	`xml:",chardata"`
+	Children	*[]Nodes	`xml:",omitempty"`
 	Text  		string      `xml:",chardata"`
 	Attributes
 }
@@ -16,7 +16,7 @@ type P struct {
 type Div struct {
 	XMLName   xml.Name      `xml:"Div"`
 	Attributes
-	Children	*[]Nodes	`xml:",chardata"`
+	Children	*[]Nodes	`xml:",omitempty"`
 	Text  string            `xml:",chardata"`
 }
 
