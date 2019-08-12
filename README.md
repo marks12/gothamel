@@ -1,3 +1,5 @@
+
+```go
 doc := layout.Doc()
 
     content := tag.Article{Children: &[]tag.Nodes{
@@ -32,7 +34,7 @@ doc := layout.Doc()
     htmlPage := doc.GetHtmlPage(true)
 
     os.Stdout.Write([]byte(htmlPage))
-    
+```
     
 ```html 
 
