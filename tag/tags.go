@@ -23,7 +23,7 @@ type Div struct {
 type Article struct {
 	XMLName   xml.Name      `xml:"Article"`
 	Attributes
-	Children	*[]Nodes	`xml:",chardata"`
+	Children	*[]Nodes	`xml:",omitempty"`
 }
 
 
